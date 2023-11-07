@@ -1,0 +1,48 @@
+  <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Match Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="script.js" async></script>
+    </head>
+    <body onload="initialize()">
+        <h1><strong>The Match Game</strong></h1>
+        <div class ="gui">
+        <div class="box blank"></div>
+         <div class="box directions">
+                <h2>How to play Match game: </h2>
+                <p> To play match game, you win by finding all pairs. You have to match two images on randomly selected squares. If the two images are the same, they will stay flipped over. If they are different, they will flip over and you will have to try again. To win, you have to match all the pairs with the lowest score possible.</p>
+         </div>
+         <div class="box blank"></div>
+         <div class="box grid">
+             <div id="item1"><button onclick="updateGame('item1')"><img src="zDefault.jpg"></button></div>
+             <div id="item2"><button onclick="updateGame('item2')"><img src="zDefault.jpg"></button></div>
+             <div id="item3"><button onclick="updateGame('item3')"><img src="zDefault.jpg"></button></div>
+             <div id="item4"><button onclick="updateGame('item4')"><img src="zDefault.jpg"></button></div>
+             <div id="item5"><button onclick="updateGame('item5')"><img src="zDefault.jpg"></button></div>
+             <div id="item6"><button onclick="updateGame('item6')"><img src="zDefault.jpg"></button></div>
+             <div id="item7"><button onclick="updateGame('item7')"><img src="zDefault.jpg"></button></div>
+             <div id="item8"><button onclick="updateGame('item8')"><img src="zDefault.jpg"></button></div>
+             <div id="item9"><button onclick="updateGame('item9')"><img src="zDefault.jpg"></button></div>
+             <div id="item10"><button onclick="updateGame('item10')"><img src="zDefault.jpg"></button></div>
+             <div id="item11"><button onclick="updateGame('item11')"><img src="zDefault.jpg"></button></div>
+             <div id="item12"><button onclick="updateGame('item12')"><img src="zDefault.jpg"></button></div>
+             <div id="item13"><button onclick="updateGame('item13')"><img src="zDefault.jpg"></button></div>
+             <div id="item14"><button onclick="updateGame('item14')"><img src="zDefault.jpg"></button></div>
+             <div id="item15"><button onclick="updateGame('item15')"><img src="zDefault.jpg"></button></div>
+             <div id="item16"><button onclick="updateGame('item16')"><img src="zDefault.jpg"></button></div>      
+        </div>
+        <div class="box blank"></div>
+            <div id="score" class="box score">
+                <p>Score:</p>
+            </div>
+            <div class="box blank"></div>
+        </div>
+        
+        <div class="reset"><button onclick="">Reset the Game</button></div>
+        <div id="winMessage"><p></p>  </div>   
+    </body>
+    </html>
